@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task 4</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="first-name"> First Name*:</label>
+        <input placeholder="Your first name" type="text" id = "first-name" name= "first-name" required= "required">
+        <br>
+        <label for="last-name"> Last Name*:</label>
+        <input placeholder="Your last name" type="text" id = "last-name" name= "last-name" required= "required">
+        <br>
+        <label for="email">Email Address*:</label>
+        <input placeholder="Your email address" type="email" id="email" name="email" required= "required">
+        <br>
+        <label for="password">Password input*:</label>
+        <input type="password" id="password" name="password" required="required">
+        <br>
+        <label for="rpassword">Repeat password*:</label>
+        <input type="password" id="rpassword" name= "rpassword" required="required">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Profile Information</legend>
+            <div>Grade Level
+            <input type="radio" name="level" value="freshman" id="freshman">
+            <label for ="freshman">Freshman</label>
+            <input type="radio" name="level" value="sophomore" id="sophomore">
+            <label for ="sophomore">Sophomore</label>
+            <input type="radio" name="level" value="junior" id="junior">
+            <label for ="junior">Junior</label>
+            <input type="radio" name="level" value="senior" id="senior">
+            <label for ="senior">Senior</label>
+            <input type="radio" name="level" value="graduate" id="graduate">
+            <label for ="graduate">Graduate</label>
+            </div> 
+            <label for="select">Favorite Genre of Music*:</label>
+            <select multiple required name="select" id="select">
+                <option value="rock" >rock</option>
+                <option value="hip hop" >hip hop</option>
+                <option value="EDM" >EDM</option>
+                <option value="classical" >classical</option>
+            </select>
+            <br>
+            <label for="select2">Favorite member of Wu Tang Clan*:</label>
+            <select required name="select2" id="select2">
+                <option value="">--select--</option>
+                <option value="RzA">RzA</option>
+                <option value="GzA">GzA</option>
+                <option value="Ol’ Dirty">Ol’ Dirty</option>
+                <option value="Inspectah Deck">Inspectah Deck</option>
+                <option value="Raekwon">Raekwon</option>
+                <option value="U-God">U-God</option>
+                <option value="Ghostface Killah">Ghostface Killah</option>
+                <option value="Method Man">Method Man</option>
+            </select>
+            <br>
+            <input type="checkbox" name="sign" id="sign" value="sign">
+            <label for="sign">Sign me up for spam emails, because I don’t get enough junk email!</label>
+        </fieldset>
+    </form>
+    <div>*Required<input type="submit" value="Submit this form!"></div>
+</body>
+</html>

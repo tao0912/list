@@ -1,0 +1,26 @@
+.movies{
+    cursor: pointer;
+}
+.movie:hover{
+    color:white;
+    text-decoration: underline;
+}
+body{
+    background-color:brown;
+}
+.card{
+    background-color: black;
+}
+.card-text, .card-title{
+    text-align: center;
+    color: white;
+}
+.white{
+    text-align:center;
+    color: white;
+}
+.size{
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+}
